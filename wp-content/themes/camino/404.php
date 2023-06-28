@@ -1,60 +1,23 @@
-<?php
-/**
- * The template for displaying 404 pages (not found)
- *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
- *
- * @package Camino
- */
+<?php get_header(); ?>
 
-get_header();
-?>
+<main id="primary" class="site-main">
 
-	<main id="primary" class="site-main">
+    <header class="page-header" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/annual-report-header.jpg)">
+        <div class="flex container">
+            <div class="header-content">
+                <h1><?php _e('Page not found', 'camino'); ?></h1>
+                <?php the_excerpt(); ?>
+            </div>
+        </div>
+    </header>
 
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'camino' ); ?></h1>
-			</header><!-- .page-header -->
+    <?php while ( have_posts() ) : the_post(); ?>
 
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'camino' ); ?></p>
+		<?php the_content(); ?>
 
-					<?php
-					get_search_form();
+	<?php endwhile; ?>
 
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'camino' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$camino_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'camino' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$camino_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
+</main><!-- #main -->
 
 <?php
 get_footer();
