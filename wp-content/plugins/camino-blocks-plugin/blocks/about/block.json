@@ -1,0 +1,44 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/about",
+	"version": "0.1.0",
+	"title": "Camino - About Block",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Camino about block",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"subtitle": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		},
+		"link": {
+			"type": "string",
+			"default": "/about/"
+		},
+		"linklabel": {
+			"type": "string"
+		},
+		"image": {
+			"type": "object",
+			"selector": "image-upload"
+		},
+		"fullBackground": {
+			"type": "boolean"
+		},
+		"halfBackground": {
+			"type": "boolean"
+		}
+	}
+}

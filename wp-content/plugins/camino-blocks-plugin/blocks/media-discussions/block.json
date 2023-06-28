@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/media-discussions",
+	"title": "Camino - Media & Discussions",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display latest media & discussions",
+	"keywords": ["media", "discussions"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

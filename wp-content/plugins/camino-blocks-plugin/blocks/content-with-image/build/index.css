@@ -1,0 +1,67 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-content-with-image {
+  display: flex;
+  max-width: 1200px;
+  margin: 60px 0;
+}
+.wp-block-camino-blocks-plugin-content-with-image .container {
+  width: 100%;
+}
+.wp-block-camino-blocks-plugin-content-with-image .content-column {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background: #F2F2DE;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+}
+.wp-block-camino-blocks-plugin-content-with-image .content-column a {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 12px 50px 12px 20px;
+  position: relative;
+  background: #A8A816;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 1px solid #A8A816;
+  transition: 0.2s all;
+  position: relative;
+}
+.wp-block-camino-blocks-plugin-content-with-image .content-column a:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 35px;
+  height: 35px;
+  background-color: #e3e3af;
+  background-position: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+.wp-block-camino-blocks-plugin-content-with-image .image-column img {
+  width: 100%;
+}
+.wp-block-camino-blocks-plugin-content-with-image .column {
+  width: 50%;
+}
+.wp-block-camino-blocks-plugin-content-with-image .content-column {
+  border-radius: 15px 0 0 15px;
+}
+.wp-block-camino-blocks-plugin-content-with-image .content-column h6 {
+  margin: 0;
+  text-transform: uppercase;
+}
+.wp-block-camino-blocks-plugin-content-with-image .content-column h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.wp-block-camino-blocks-plugin-content-with-image .image-column img {
+  display: block;
+}
+
+/*# sourceMappingURL=index.css.map*/

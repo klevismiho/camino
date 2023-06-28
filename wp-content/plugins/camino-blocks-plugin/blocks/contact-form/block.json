@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/contact-form",
+	"title": "Camino - Contact Form",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display the contact form and details",
+	"keywords": ["contact"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

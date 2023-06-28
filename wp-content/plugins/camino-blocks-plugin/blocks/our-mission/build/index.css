@@ -1,0 +1,49 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-our-mission {
+  max-width: 1000px;
+  padding: 60px 0;
+}
+.wp-block-camino-blocks-plugin-our-mission .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 100%;
+  background: transparent;
+}
+.wp-block-camino-blocks-plugin-our-mission h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+.wp-block-camino-blocks-plugin-our-mission h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.wp-block-camino-blocks-plugin-our-mission .item {
+  display: flex;
+  flex-grow: 1;
+  width: 40%;
+  position: relative;
+  height: 250px;
+  margin-bottom: 25px;
+  padding: 30px;
+  background-size: cover;
+  background-color: #000000;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.wp-block-camino-blocks-plugin-our-mission .item.first {
+  display: block;
+  color: #000000;
+}
+.wp-block-camino-blocks-plugin-our-mission .item .item-content {
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.wp-block-camino-blocks-plugin-our-mission .item .item-content p {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

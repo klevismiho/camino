@@ -1,0 +1,62 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-testimonials {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 0;
+}
+.wp-block-camino-blocks-plugin-testimonials h2 {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+.wp-block-camino-blocks-plugin-testimonials .item {
+  width: 50%;
+  background: #ffffff;
+  border-radius: 15px;
+  display: flex;
+}
+.wp-block-camino-blocks-plugin-testimonials .item img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  border-radius: 15px 0 0 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wp-block-camino-blocks-plugin-testimonials .item p {
+  line-height: 1.2;
+}
+.wp-block-camino-blocks-plugin-testimonials .content {
+  padding: 20px;
+}
+.wp-block-camino-blocks-plugin-testimonials .tag {
+  display: inline-block;
+  padding: 2px 15px;
+  background: rgba(168, 168, 22, 0.2);
+  text-decoration: none;
+  font-size: 14px;
+  color: #A8A816;
+  border-radius: 15px;
+}
+.wp-block-camino-blocks-plugin-testimonials .content {
+  padding: 30px;
+}
+.wp-block-camino-blocks-plugin-testimonials h2 {
+  max-width: 1400px;
+  margin: 25px auto;
+  padding: 0;
+  position: relative;
+}
+.wp-block-camino-blocks-plugin-testimonials .button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.wp-block-camino-blocks-plugin-testimonials h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+/*# sourceMappingURL=index.css.map*/

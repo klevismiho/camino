@@ -1,0 +1,61 @@
+/* Settings */
+$white: #ffffff;
+$black: #000000;
+$primary-color: #A8A816;
+$primary-color-lighter: #e3e3af;
+$primary-color-lightest: #F2F2DE;
+$gray: #A3A3A4;
+$dark-gray: #484849;
+$light-gray: #E4E4E4;
+
+$font-lato: 'Lato', sans-serif;
+
+$large-size: 1400px;
+$size-xxlarge: 1440px;
+
+$box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+
+$border-radius: 15px;
+$border-radius-round: 100px;
+
+
+.wp-block-camino-blocks-plugin-media-team {
+    width: 100%;
+    max-width: 1200px;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    h2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    .item {
+        margin-bottom: 25px;
+        display: flex;
+        width: calc(50% - 10px);
+        margin-bottom: 0;
+        img {
+            width: 100%;
+            width: 50%;
+            border-radius: $border-radius $border-radius 0 0;
+        }
+        .item-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            padding: 30px;
+            text-align: center;
+            background: $primary-color-lightest;
+            border-radius: 0 0 $border-radius $border-radius;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-services-sectors {
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: 0;
+  padding: 60px 0;
+}
+.wp-block-camino-blocks-plugin-services-sectors .columns {
+  display: flex;
+}
+.wp-block-camino-blocks-plugin-services-sectors .columns .column {
+  width: 48%;
+}
+.wp-block-camino-blocks-plugin-services-sectors .columns .column:first-child ul {
+  -moz-columns: 2;
+       columns: 2;
+}
+.wp-block-camino-blocks-plugin-services-sectors p {
+  font-size: 18px;
+}
+.wp-block-camino-blocks-plugin-services-sectors h5 {
+  margin-bottom: 15px;
+}
+.wp-block-camino-blocks-plugin-services-sectors ul {
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+}
+.wp-block-camino-blocks-plugin-services-sectors ul li {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 40px;
+  list-style: none;
+}
+.wp-block-camino-blocks-plugin-services-sectors ul li:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: #000000;
+}
+
+/*# sourceMappingURL=index.css.map*/

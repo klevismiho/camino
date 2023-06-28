@@ -1,0 +1,26 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-what-we-do {
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 0;
+  text-align: center;
+}
+.wp-block-camino-blocks-plugin-what-we-do .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 100%;
+  margin-bottom: 25px;
+  background: transparent;
+}
+.wp-block-camino-blocks-plugin-what-we-do h2 {
+  margin-bottom: 20px;
+}
+.wp-block-camino-blocks-plugin-what-we-do .item {
+  display: block;
+  width: calc(32% - 15px);
+  background: #E4E4E4;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=index.css.map*/

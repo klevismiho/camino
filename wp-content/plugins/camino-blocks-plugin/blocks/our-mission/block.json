@@ -1,0 +1,38 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/our-mission",
+	"version": "0.1.0",
+	"title": "Camino - Our Mission",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Camino our mission",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Our Mission and Goals"
+		},
+		"subtitle_1": {
+			"type": "string",
+			"default": "To equip people to live healthy, hopeful, and productive lives"
+		},
+		"subtitle_2": {
+			"type": "string",
+			"default": "To make North Carolina the place in the US for Latinos to live"
+		},
+		"image_1": {
+			"type": "object",
+			"selector": "image-1"
+		},
+		"image_2": {
+			"type": "object",
+			"selector": "image-2"
+		}
+	}
+}

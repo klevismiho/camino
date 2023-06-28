@@ -1,0 +1,131 @@
+/* Settings */
+$white: #ffffff;
+$black: #000000;
+$primary-color: #A8A816;
+$primary-color-lighter: #e3e3af;
+$primary-color-lightest: #F2F2DE;
+$gray: #A3A3A4;
+$dark-gray: #484849;
+$light-gray: #E4E4E4;
+
+$font-lato: 'Lato', sans-serif;
+
+$large-size: 1400px;
+$size-xxlarge: 1440px;
+
+$box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+
+$border-radius: 15px;
+$border-radius-round: 100px;
+
+
+@mixin button() {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 12px;
+    position: relative;
+    background: $primary-color;
+    font-weight: bold;
+    font-size: 14px;
+    color: $black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid $primary-color;
+    transition: .2s all;
+    &:visited {
+        color: inherit;
+    }
+    &:hover {
+        transform: scale(1.04);
+    }
+    &.with-icon {
+        padding: 12px 50px 12px 20px;
+        &.icon-left {
+            padding: 12px 20px 12px 50px;
+            &:after {
+                left: 5px;
+            }
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 35px;
+            height: 35px;
+            background-color: $primary-color-lighter;
+            background-image: url(../images/arrow-right.svg);
+            background-position: center;
+            background-size: 20px;
+            background-repeat: no-repeat;
+            border-radius: 50px;
+        }
+    }
+    &.secondary {
+        background: transparent;
+        color: $white;
+        border: 1px solid $white;
+        &.with-icon {
+            &:after {
+                height: 35px;
+                background-color: rgba($white, 0.3);
+                background-image: url(../images/arrow-right-white.svg);
+            }
+            &.icon-play {
+                &:after {
+                    background-image: url(../images/icon-play.svg);
+                }
+            }
+        }
+    }
+    &.dark {
+        border: 1px solid $black;
+        color: $black;
+        &.with-icon {
+            &:after {
+                background-color: $gray;
+                background-image: url(../images/arrow-right.svg);
+            }
+        }
+    }
+}
+
+.wp-block-camino-blocks-plugin-statistics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 60px 0;
+    .item {
+        margin-bottom: 0;
+    }
+    h2 {
+        margin-top: 0;
+    }
+    h3 {
+        margin: 0;
+        margin-top: 5px;
+    }
+    .number {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 1;
+    }
+    p {
+        margin-top: 5px;
+    }
+    .item {
+        display: flex;
+        flex-grow: 1;
+        width: 40%;
+        position: relative;
+        padding: 30px;
+        margin-bottom: 25px;
+        background-size: cover;
+        border-radius: 15px;
+        &.first {
+            display: block;
+            padding: 30px;
+            color: $black;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/boxes",
+	"title": "Camino - 3 boxes",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display content with three boxes",
+	"keywords": ["content", "image", "boxes"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title_1": {
+			"type": "string"
+		},
+		"title_2": {
+			"type": "string"
+		},
+		"title_3": {
+			"type": "string"
+		},
+		"link_1": {
+			"type": "string"
+		},
+		"link_2": {
+			"type": "string"
+		},
+		"link_3": {
+			"type": "string"
+		},
+		"content_1": {
+			"type": "string"
+		},
+		"content_2": {
+			"type": "string"
+		},
+		"content_3": {
+			"type": "string"
+		},
+		"image_1": {
+			"type": "object",
+			"selector": "image-upload-1"
+		},
+		"image_2": {
+			"type": "object",
+			"selector": "image-upload-2"
+		},
+		"image_3": {
+			"type": "object",
+			"selector": "image-upload-3"
+		}
+	}
+}

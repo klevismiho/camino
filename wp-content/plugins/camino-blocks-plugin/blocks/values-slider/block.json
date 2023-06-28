@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/values-slider",
+	"title": "Camino - Values slider",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display our values slider",
+	"keywords": ["timeline", "values"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"fullBackground": {
+			"type": "boolean"
+		},
+		"halfBackground": {
+			"type": "boolean"
+		}
+	}
+}

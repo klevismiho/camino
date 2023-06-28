@@ -1,0 +1,82 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-impact {
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 0;
+}
+.wp-block-camino-blocks-plugin-impact h3 {
+  margin: 8px 0;
+  font-size: 24px;
+  line-height: 1;
+}
+.wp-block-camino-blocks-plugin-impact .number {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+}
+.wp-block-camino-blocks-plugin-impact p {
+  margin-top: 5px;
+}
+.wp-block-camino-blocks-plugin-impact .item {
+  position: relative;
+  height: 350px;
+  padding: 30px;
+  margin-bottom: 25px;
+  background-size: cover;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.wp-block-camino-blocks-plugin-impact .item.first {
+  display: block;
+  color: #000000;
+}
+.wp-block-camino-blocks-plugin-impact .item .item-content {
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.wp-block-camino-blocks-plugin-impact .item .item-content p {
+  margin-bottom: 0;
+}
+.wp-block-camino-blocks-plugin-impact .item {
+  margin-bottom: 0;
+}
+.wp-block-camino-blocks-plugin-impact .columns {
+  display: flex;
+  gap: 20px;
+}
+.wp-block-camino-blocks-plugin-impact .columns .column-1 {
+  width: 100%;
+}
+.wp-block-camino-blocks-plugin-impact .columns .column-1 .row-1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+.wp-block-camino-blocks-plugin-impact .columns .column-1 .row-1 h2 {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 350px);
+  font-size: 90px;
+  line-height: 1;
+}
+.wp-block-camino-blocks-plugin-impact .columns .column-1 .row-1 .item {
+  width: 350px;
+}
+.wp-block-camino-blocks-plugin-impact .columns .column-1 .row-2 {
+  display: flex;
+  gap: 20px;
+}
+.wp-block-camino-blocks-plugin-impact .columns .column-1 .row-2 .item:first-child {
+  width: 350px;
+}
+.wp-block-camino-blocks-plugin-impact .columns .column-1 .row-2 .item:last-child {
+  width: calc(100% - 350px);
+}
+.wp-block-camino-blocks-plugin-impact .columns .column-2 .item {
+  width: 350px;
+  height: 100%;
+}
+
+/*# sourceMappingURL=index.css.map*/

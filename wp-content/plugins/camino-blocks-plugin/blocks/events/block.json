@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/events",
+	"title": "Camino - Upcoming Events",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display upcoming events",
+	"keywords": ["latest", "events"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

@@ -1,0 +1,43 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-media-team {
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.wp-block-camino-blocks-plugin-media-team .container {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.wp-block-camino-blocks-plugin-media-team h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.wp-block-camino-blocks-plugin-media-team h4 {
+  font-size: 22px;
+}
+.wp-block-camino-blocks-plugin-media-team .item {
+  margin-bottom: 25px;
+  display: flex;
+  width: calc(50% - 10px);
+  margin-bottom: 0;
+}
+.wp-block-camino-blocks-plugin-media-team .item img {
+  width: 100%;
+  width: 50%;
+  border-radius: 15px 15px 0 0;
+}
+.wp-block-camino-blocks-plugin-media-team .item .item-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+  background: #F2F2DE;
+  border-radius: 0 0 15px 15px;
+}
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/campaigns",
+	"title": "Camino - Campaigns",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display list of upcoming campaigns",
+	"keywords": ["campaign"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

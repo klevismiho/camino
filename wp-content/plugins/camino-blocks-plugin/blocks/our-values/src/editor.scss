@@ -1,0 +1,81 @@
+/* Settings */
+$white: #ffffff;
+$black: #000000;
+$primary-color: #A8A816;
+$primary-color-lighter: #e3e3af;
+$primary-color-lightest: #F2F2DE;
+$gray: #A3A3A4;
+$dark-gray: #484849;
+$light-gray: #E4E4E4;
+
+$font-lato: 'Lato', sans-serif;
+
+$large-size: 1400px;
+$size-xxlarge: 1440px;
+
+$box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+
+$border-radius: 15px;
+$border-radius-round: 100px;
+
+
+.wp-block-camino-blocks-plugin-our-values {
+    max-width: 1200px;
+    width: 100%;
+    padding: 90px 0;
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        background-color: $primary-color-lightest;
+        border-radius: $border-radius;
+        img {
+            display: none;
+            width: 110px;
+            height: 110px;
+            margin-left: -50px;
+            border-radius: $border-radius-round;
+        }
+        .text {
+            padding: 20px;
+        }
+        h5 {
+            width: 100%;
+            font-size: 20px;
+        }
+        p {
+            margin: 0;
+        }
+    }
+    .columns {
+        display: flex;
+        gap: 30px;
+        .column {
+            &:first-child {
+                width: 40%;
+            }
+            &:last-child {
+                width: 60%;
+            }
+        }
+    }
+    ul {
+        margin-left: 50px;
+    }
+    li {
+        img {
+            display: block;
+            width: 180px;
+            height: 180px;
+            margin-left: -90px;
+            border-radius: $border-radius-round;
+        }
+        .text {
+            padding: 15px 30px;
+        }
+    }
+}

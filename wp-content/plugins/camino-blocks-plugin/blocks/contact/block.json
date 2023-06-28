@@ -1,0 +1,47 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/contact",
+	"version": "0.1.0",
+	"title": "Camino - Contact",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Camino contact",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"selector": "h2",
+			"default": "Lorem ipsum dolor sit"
+		},
+		"subtitle": {
+			"type": "string",
+			"default": "Welcome to Camino"
+		},
+		"content": {
+			"type": "string",
+			"default": "This is an editable text"
+		},
+		"image": {
+			"type": "object",
+			"selector": "image-upload"
+		},
+		"link_1": {
+			"type": "string"
+		},
+		"link_2": {
+			"type": "string"
+		},
+		"linklabel_1": {
+			"type": "string"
+		},
+		"linklabel_2": {
+			"type": "string"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/media-team",
+	"title": "Camino - Media Team",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display media team",
+	"keywords": ["media", "team"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		}
+	}
+}

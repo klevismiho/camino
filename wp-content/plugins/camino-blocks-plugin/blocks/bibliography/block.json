@@ -1,0 +1,27 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/bibliography",
+	"title": "Camino - Bibliography",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display our bibliography",
+	"keywords": ["bibliography"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		},
+		"downloadLink": {
+			"type": "string"
+		}
+	}
+}

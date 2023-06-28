@@ -1,0 +1,67 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-boxes {
+  max-width: 1200px;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+.wp-block-camino-blocks-plugin-boxes .services-header {
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.wp-block-camino-blocks-plugin-boxes .services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.wp-block-camino-blocks-plugin-boxes .service-item {
+  display: block;
+  width: calc(33% - 13px);
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  transition: 0.2s all;
+}
+.wp-block-camino-blocks-plugin-boxes .service-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+}
+.wp-block-camino-blocks-plugin-boxes .service-item:hover .logo {
+  opacity: 0;
+}
+.wp-block-camino-blocks-plugin-boxes .service-item .image-wrapper {
+  display: block;
+  position: relative;
+}
+.wp-block-camino-blocks-plugin-boxes .service-item .image-wrapper .logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  transition: 0.2s all;
+  transform: translateY(-50%);
+}
+.wp-block-camino-blocks-plugin-boxes .service-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+.wp-block-camino-blocks-plugin-boxes .service-item .item-content {
+  padding: 15px;
+}
+.wp-block-camino-blocks-plugin-boxes .service-item h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #A8A816;
+}
+.wp-block-camino-blocks-plugin-boxes .service-item p {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

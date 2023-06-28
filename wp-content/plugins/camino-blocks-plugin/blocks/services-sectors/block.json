@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/services-sectors",
+	"title": "Camino - Our Services & Sectors",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display our services and sectors",
+	"keywords": ["services", "sectors"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		}
+	}
+}

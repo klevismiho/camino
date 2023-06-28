@@ -1,0 +1,55 @@
+/* Settings */
+$white: #ffffff;
+$black: #000000;
+$primary-color: #A8A816;
+$primary-color-lighter: #e3e3af;
+$primary-color-lightest: #F2F2DE;
+$gray: #A3A3A4;
+$dark-gray: #484849;
+$light-gray: #E4E4E4;
+
+$font-lato: 'Lato', sans-serif;
+
+$large-size: 1400px;
+$size-xxlarge: 1440px;
+
+$box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+
+$border-radius: 15px;
+$border-radius-round: 100px;
+
+
+.wp-block-camino-blocks-plugin-team {
+    display: flex;
+    max-width: 1200px;
+    padding: 60px 0;
+    h2 {
+        margin: 25px auto;
+        padding: 0 20px;
+    }
+    h5 {
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: $primary-color;
+    }
+    .item {
+        display: block;
+        border-radius: $border-radius;
+        img {
+            width: 100%;
+            border-radius: $border-radius;
+        }
+        .item-content {
+            padding: 15px;
+        }
+        h3 {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.2;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

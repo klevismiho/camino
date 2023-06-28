@@ -1,0 +1,37 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-team {
+  display: flex;
+  max-width: 1200px;
+  padding: 60px 0;
+}
+.wp-block-camino-blocks-plugin-team h2 {
+  margin: 25px auto;
+  padding: 0 20px;
+}
+.wp-block-camino-blocks-plugin-team h5 {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #A8A816;
+}
+.wp-block-camino-blocks-plugin-team .item {
+  display: block;
+  border-radius: 15px;
+}
+.wp-block-camino-blocks-plugin-team .item img {
+  width: 100%;
+  border-radius: 15px;
+}
+.wp-block-camino-blocks-plugin-team .item .item-content {
+  padding: 15px;
+}
+.wp-block-camino-blocks-plugin-team .item h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.wp-block-camino-blocks-plugin-team .item p {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

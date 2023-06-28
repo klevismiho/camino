@@ -1,0 +1,39 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/latest-publication",
+	"version": "0.1.0",
+	"title": "Camino - Latest publication",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Camino latest publication",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"selector": "h2",
+			"default": "Lorem ipsum dolor sit"
+		},
+		"subtitle": {
+			"type": "string",
+			"default": "Latest Publication"
+		},
+		"content": {
+			"type": "string",
+			"default": "This is an editable about us text"
+		},
+		"image": {
+			"type": "object",
+			"selector": "image-upload"
+		},
+		"link": {
+			"type": "string",
+			"default": "/about/"
+		}
+	}
+}

@@ -1,0 +1,104 @@
+/* Settings */
+$white: #ffffff;
+$black: #000000;
+$primary-color: #A8A816;
+$primary-color-lighter: #e3e3af;
+$primary-color-lightest: #F2F2DE;
+$gray: #A3A3A4;
+$dark-gray: #484849;
+$light-gray: #E4E4E4;
+
+$font-lato: 'Lato', sans-serif;
+
+$large-size: 1400px;
+$size-xxlarge: 1440px;
+
+$box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+
+$border-radius: 15px;
+$border-radius-round: 100px;
+
+
+.wp-block-camino-blocks-plugin-impact {
+    width: 100%;
+    max-width: 1200px;
+    padding: 60px 0;
+    h3 {
+        margin: 8px 0;
+        font-size: 24px;
+        line-height: 1;
+    }
+    .number {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 1;
+    }
+    p {
+        margin-top: 5px;
+    }
+    .item {
+        position: relative;
+        height: 350px;
+        padding: 30px;
+        margin-bottom: 25px;
+        background-size: cover;
+        border-radius: 15px;
+        color: $white;
+        &.first {
+            display: block;
+            color: $black;
+        }
+        .item-content {
+            padding: 30px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .item {
+        margin-bottom: 0;
+    }
+    .columns {
+        display: flex;
+        gap: 20px;
+        .column-1 {
+            width: 100%;
+            .row-1 {
+                display: flex;
+                margin-bottom: 20px;
+                h2 {
+                    display: flex;
+                    align-items: center;
+                    width: calc(100% - 350px);
+                    font-size: 90px;
+                    line-height: 1;
+                }
+                .item {
+                    width: 350px;
+                }
+            }
+            .row-2 {
+                display: flex;
+                gap: 20px;
+                .item {
+                    &:first-child {
+                        width: 350px;
+                    }
+                    &:last-child {
+                        width: calc(100% - 350px);
+                    }
+                }
+            }
+        }
+        .column-2 {
+            .item {
+                width: 350px;
+                height: 100%;
+            }
+        }
+    }
+}

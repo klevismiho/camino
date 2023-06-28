@@ -1,0 +1,55 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/our-values",
+	"version": "0.1.0",
+	"title": "Camino - Our Values",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Camino our values",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Our values"
+		},
+		"content": {
+			"type": "string"
+		},
+		"subtitle_1": {
+			"type": "string"
+		},
+		"subcontent_1": {
+			"type": "string"
+		},
+		"subtitle_2": {
+			"type": "string"
+		},
+		"subcontent_2": {
+			"type": "string"
+		},
+		"subtitle_3": {
+			"type": "string"
+		},
+		"subcontent_3": {
+			"type": "string"
+		},
+		"subtitle_4": {
+			"type": "string"
+		},
+		"subcontent_4": {
+			"type": "string"
+		},
+		"subtitle_5": {
+			"type": "string"
+		},
+		"subcontent_5": {
+			"type": "string"
+		}
+	}
+}

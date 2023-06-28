@@ -1,0 +1,38 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-bibliography {
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: 0;
+  padding: 60px 0;
+}
+.wp-block-camino-blocks-plugin-bibliography .container {
+  width: 100%;
+}
+.wp-block-camino-blocks-plugin-bibliography p {
+  font-size: 18px;
+}
+.wp-block-camino-blocks-plugin-bibliography h5 {
+  margin-bottom: 15px;
+}
+.wp-block-camino-blocks-plugin-bibliography ul {
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+}
+.wp-block-camino-blocks-plugin-bibliography ul li {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 40px;
+  list-style: none;
+}
+.wp-block-camino-blocks-plugin-bibliography ul li:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: #000000;
+}
+
+/*# sourceMappingURL=index.css.map*/

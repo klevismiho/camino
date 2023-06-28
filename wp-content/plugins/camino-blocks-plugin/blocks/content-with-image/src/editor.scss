@@ -1,0 +1,94 @@
+/* Settings */
+$white: #ffffff;
+$black: #000000;
+$primary-color: #A8A816;
+$primary-color-lighter: #e3e3af;
+$primary-color-lightest: #F2F2DE;
+$gray: #A3A3A4;
+$dark-gray: #484849;
+$light-gray: #E4E4E4;
+
+$font-lato: 'Lato', sans-serif;
+
+$large-size: 1400px;
+$size-xxlarge: 1440px;
+
+$box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+
+$border-radius: 15px;
+$border-radius-round: 100px;
+
+
+@mixin button() {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 12px 50px 12px 20px;
+    position: relative;
+    background: $primary-color;
+    font-weight: bold;
+    font-size: 14px;
+    color: $black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid $primary-color;
+    transition: .2s all;
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 35px;
+        height: 35px;
+        background-color: $primary-color-lighter;
+        background-position: center;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+    }
+}
+
+
+.wp-block-camino-blocks-plugin-content-with-image {
+    display: flex;
+    max-width: 1200px;
+    margin: 60px 0;
+    .container {
+        width: 100%;
+    }
+    .content-column {
+        display: flex;
+        align-items: center;
+        padding: 50px;
+        background: $primary-color-lightest;
+        text-align: center;
+        border-radius: $border-radius $border-radius 0 0;
+        a {
+            @include button();
+        }
+    }
+    .image-column {
+        img {
+            width: 100%;
+        }
+    }
+    .column {
+        width: 50%;
+    }
+    .content-column {
+        border-radius: $border-radius 0 0 $border-radius;
+        h6 {
+            margin: 0;
+            text-transform: uppercase;
+        }
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+    }
+    .image-column {
+        img {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-media-discussions {
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 0;
+}
+.wp-block-camino-blocks-plugin-media-discussions .container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  background: transparent;
+}
+.wp-block-camino-blocks-plugin-media-discussions h3 {
+  margin: 8px 0;
+  font-size: 24px;
+  line-height: 1;
+}
+.wp-block-camino-blocks-plugin-media-discussions h3 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.wp-block-camino-blocks-plugin-media-discussions p {
+  margin-top: 5px;
+}
+.wp-block-camino-blocks-plugin-media-discussions .item {
+  display: block;
+  position: relative;
+  width: 50%;
+  height: 250px;
+  margin-bottom: 25px;
+  background-size: cover;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.wp-block-camino-blocks-plugin-media-discussions .item.first {
+  display: block;
+  color: #000000;
+}
+.wp-block-camino-blocks-plugin-media-discussions .item img {
+  border-radius: 15px;
+}
+.wp-block-camino-blocks-plugin-media-discussions .item .item-content {
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.wp-block-camino-blocks-plugin-media-discussions .item .item-content p {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,0 +1,33 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-about {
+  max-width: 1200px;
+  width: 100%;
+  padding-top: 90px;
+}
+.wp-block-camino-blocks-plugin-about .container {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background: transparent;
+}
+.wp-block-camino-blocks-plugin-about .card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.wp-block-camino-blocks-plugin-about .card h6 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #A8A816;
+}
+.wp-block-camino-blocks-plugin-about .card h2 {
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

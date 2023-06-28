@@ -1,0 +1,32 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/statistics",
+	"version": "0.1.0",
+	"title": "Camino - Statistics",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Camino statistics block",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "2022 by the Numbers"
+		},
+		"content": {
+			"type": "string"
+		},
+		"link": {
+			"type": "string",
+			"default": "/about/"
+		},
+		"linklabel": {
+			"type": "string"
+		}
+	}
+}

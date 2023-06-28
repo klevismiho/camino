@@ -1,0 +1,42 @@
+/* Settings */
+.wp-block-camino-blocks-plugin-statistics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 60px 0;
+}
+.wp-block-camino-blocks-plugin-statistics .item {
+  margin-bottom: 0;
+}
+.wp-block-camino-blocks-plugin-statistics h2 {
+  margin-top: 0;
+}
+.wp-block-camino-blocks-plugin-statistics h3 {
+  margin: 0;
+  margin-top: 5px;
+}
+.wp-block-camino-blocks-plugin-statistics .number {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1;
+}
+.wp-block-camino-blocks-plugin-statistics p {
+  margin-top: 5px;
+}
+.wp-block-camino-blocks-plugin-statistics .item {
+  display: flex;
+  flex-grow: 1;
+  width: 40%;
+  position: relative;
+  padding: 30px;
+  margin-bottom: 25px;
+  background-size: cover;
+  border-radius: 15px;
+}
+.wp-block-camino-blocks-plugin-statistics .item.first {
+  display: block;
+  padding: 30px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=index.css.map*/

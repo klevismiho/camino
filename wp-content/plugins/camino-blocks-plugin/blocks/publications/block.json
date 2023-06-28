@@ -1,0 +1,40 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/publications",
+	"title": "Camino - Publications",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display publications slider",
+	"keywords": ["publications"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"numberOfPosts": {
+			"type": "number",
+			"default": 5
+		},
+		"displayFeaturedImage": {
+			"type": "boolean",
+			"default": true
+		},
+		"order": {
+			"type": "string",
+			"default": "desc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"categories": {
+			"type": "object",
+			"items": {
+				"type": "object"
+			}
+		}
+	}
+}

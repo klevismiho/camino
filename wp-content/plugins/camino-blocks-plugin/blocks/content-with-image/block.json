@@ -1,0 +1,45 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/content-with-image",
+	"title": "Camino - Content with image",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display content with an image",
+	"keywords": ["content", "image"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"subtitle": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		},
+		"link": {
+			"type": "string"
+		},
+		"linklabel": {
+			"type": "string"
+		},
+		"kaLink": {
+			"type": "string",
+			"default": ""
+		},
+		"hasLinkNofollow": {
+			"type": "boolean",
+			"default": false
+		},
+		"image": {
+			"type": "object",
+			"selector": "js-book-details-image"
+		}
+	}
+}

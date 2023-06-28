@@ -1,0 +1,31 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/donate",
+	"title": "Camino - Donate",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Display the donate section",
+	"keywords": ["donate"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"selector": "h2",
+			"default": "Lorem ipsum dolor sit"
+		},
+		"content": {
+			"type": "string",
+			"default": "This is an editable text"
+		},
+		"image": {
+			"type": "object",
+			"selector": "image-upload"
+		}
+	}
+}

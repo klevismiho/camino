@@ -1,0 +1,50 @@
+{
+	"apiVersion": 2,
+	"name": "camino-blocks-plugin/community-research",
+	"version": "0.1.0",
+	"title": "Camino - Community Research",
+	"category": "widgets",
+	"icon": "insert",
+	"description": "Camino community research",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "camino-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Community-based Participatory Research (CBPR)"
+		},
+		"subtitle_1": {
+			"type": "string"
+		},
+		"subtitle_2": {
+			"type": "string"
+		},
+		"subtitle_3": {
+			"type": "string"
+		},
+		"subtitle_4": {
+			"type": "string"
+		},
+		"image_1": {
+			"type": "object",
+			"selector": "image-1"
+		},
+		"image_2": {
+			"type": "object",
+			"selector": "image-2"
+		},
+		"image_3": {
+			"type": "object",
+			"selector": "image-3"
+		},
+		"image_4": {
+			"type": "object",
+			"selector": "image-4"
+		}
+	}
+}
