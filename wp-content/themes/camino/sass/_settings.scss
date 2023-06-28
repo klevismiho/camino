@@ -382,7 +382,11 @@ h4,
 h5,
 h6 {
 	margin: 0;
+	line-height: 1.1;
 	clear: both;
+	@include breakpoint(small) {
+		line-height: 1.6;
+	}
 }
 
 p {
@@ -953,7 +957,7 @@ h5 {
         position: relative;
         max-width: $large-size;
         margin: 0 auto;
-        padding: 0;
+        padding: 0 15px;
         &.large {
             max-width: $xlarge-size;
         }
