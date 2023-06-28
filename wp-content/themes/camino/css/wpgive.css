@@ -1,0 +1,44 @@
+.give-form-wrap {
+    background: transparent;
+    box-shadow: none;
+}
+.give-section .give-btn.advance-btn {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 12px 50px 12px 20px !important;
+    position: relative;
+    background: #a8a816;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #a8a816;
+    transition: .2s all;
+}
+.give-section .give-btn.advance-btn i {
+    display: none;
+}
+.give-section .give-btn.advance-btn:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: #e3e3af;
+    background-image: url(../images/arrow-right.svg);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+.give-section .give-donation-amount {
+    height: 30px;
+}
+.choose-amount .give-donation-amount .give-amount-top {
+    font-size: 32px !important;
+}
+.choose-amount .give-donation-levels-wrap .give-donation-level-btn {
+    padding: 15px;
+}
