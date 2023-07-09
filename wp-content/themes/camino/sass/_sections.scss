@@ -61,7 +61,7 @@
 .section-hero {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: bottom;
@@ -79,6 +79,7 @@
     }
 
     @include breakpoint(small) {
+        height: 100vh;
         text-align: left;
 
         .container {
@@ -774,6 +775,7 @@
 
 
 .section-publication {
+    padding-top: 30px;
     img {
         border-radius: $border-radius;
     }

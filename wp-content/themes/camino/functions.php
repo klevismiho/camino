@@ -104,11 +104,11 @@ add_action( 'after_setup_theme', 'camino_content_width', 0 );
 function camino_scripts() {
 
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap' );
-	wp_enqueue_style( 'swiper', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.3/swiper-bundle.css' );
-	wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/node_modules/mmenu-js/dist/mmenu.css' );
+	// wp_enqueue_style( 'swiper', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.3/swiper-bundle.css' );
+	// wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/node_modules/mmenu-js/dist/mmenu.css' );
 	wp_enqueue_style( 'camino-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'camono-style-app', get_stylesheet_directory_uri() . '/css/app.css?v='. time() );
-	wp_style_add_data( 'camino-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'camono-style-app', get_stylesheet_directory_uri() . '/css/app.css?updated-cache-3' );
+	// wp_style_add_data( 'camino-style', 'rtl', 'replace' );
 
 	// wp_enqueue_script( 'camino-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '', true );
 	wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/node_modules/mmenu-js/dist/mmenu.js', array(), true, true);
@@ -486,15 +486,34 @@ function camino_remove_plugin_stylesheet() {
 		wp_deregister_style( 'import-eventbrite-events-front' );
 		wp_dequeue_style( 'import-eventbrite-events-front-style2' );
 		wp_deregister_style( 'import-eventbrite-events-front-style2' );
+		wp_dequeue_style( 'iee-eventbrite-events-block-style2' );
+		wp_deregister_style( 'iee-eventbrite-events-block-style2' );
+
 		// wp_dequeue_style( 'wpml-tm-admin-bar' );
 		// wp_deregister_style( 'wpml-tm-admin-bar' );
 		wp_dequeue_style( 'font-awesome' );
 		wp_deregister_style( 'font-awesome' );
+		wp_dequeue_style( 'give_recurring_css' );
+		wp_deregister_style( 'give_recurring_css' );
+		wp_dequeue_style( 'classic-theme-styles' );
+		wp_deregister_style( 'classic-theme-styles' );
 
 		// wp_dequeue_script( 'jquery-core' );
 		// wp_deregister_script( 'jquery-core' );
 		wp_dequeue_script( 'give-stripe-js' );
 		wp_deregister_script( 'give-stripe-js' );
+		wp_dequeue_script( 'give' );
+		wp_deregister_script( 'give' );
+		wp_dequeue_script( 'give_recurring_script' );
+		wp_deregister_script( 'give_recurring_script' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'camino_remove_plugin_stylesheet', 100 );
+
+
+function camino_remove_wp_block_library_css(){
+	wp_dequeue_style( 'wp-block-library' );
+	wp_dequeue_style( 'wp-block-library-theme' );
+	wp_dequeue_style( 'wc-blocks-style' ); // Remove WooCommerce block CSS
+} 
+add_action( 'wp_enqueue_scripts', 'camino_remove_wp_block_library_css', 100 );
