@@ -107,7 +107,7 @@ function camino_scripts() {
 	// wp_enqueue_style( 'swiper', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.3/swiper-bundle.css' );
 	// wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/node_modules/mmenu-js/dist/mmenu.css' );
 	wp_enqueue_style( 'camino-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'camono-style-app', get_stylesheet_directory_uri() . '/css/app.css?updated-cache-3' );
+	wp_enqueue_style( 'camono-style-app', get_stylesheet_directory_uri() . '/css/app.css?updated-cache-4' );
 	// wp_style_add_data( 'camino-style', 'rtl', 'replace' );
 
 	// wp_enqueue_script( 'camino-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '', true );

@@ -1,7 +1,7 @@
 <section class="section-newsletter">
     <div class="form-wrapper">
         <div class="inner">
-            <h5><?php _e('Sign-up for news', 'camino'); ?></h5>
+            <h6><?php _e('Sign-up for news', 'camino'); ?></h6>
             <p><?php _e('Want to stay up to date on all that we do here? Leave your email below and we’ll make sure you know about upcoming events, service opportunities, research and more!', 'camino'); ?></p>
             <?php echo do_shortcode( '[mc4wp_form id=455]' ); ?>
         </div>

@@ -72,7 +72,6 @@
 		);
 		?>
 	</div>
-	<a class="button">Donate</a>
 	<div class="mobile-header-top">
 		<img width="120" height="20" class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Camino logo in mobile logo" />
 		<?php
