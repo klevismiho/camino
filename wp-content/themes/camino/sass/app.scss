@@ -16,6 +16,12 @@
         color: $white !important;
     }
 
+    .mm-listitem {
+        &:after {
+            left: 0;
+        }
+    }
+
     .mm-listitem__text {
         padding: 20px;
         font-size: 22px;
